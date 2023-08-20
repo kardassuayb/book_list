@@ -14,12 +14,19 @@ const BookCreate = ({ onCreate }) => {
   };
 
   return (
-    <div>
-      <p>Add a Book</p>
+    <div className="book-create">
+      <h3>Add a Book</h3>
       <form onSubmit={handleSubmit}>
         <label>Title</label>
-        <input type="text" onChange={handleChange} value={title} />
-        <button type="submit">Create!</button>
+        <input
+          className="input"
+          type="text"
+          onChange={handleChange}
+          value={title}
+        />
+        <button className="button" type="submit">
+          Create!
+        </button>
       </form>
     </div>
   );
