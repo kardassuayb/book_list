@@ -1,16 +1,8 @@
 {
   "books": [
     {
-      "title": "bdf ",
+      "title": "Harry Potter 2",
       "id": 1
-    },
-    {
-      "title": "",
-      "id": 2
-    },
-    {
-      "title": "Harry potter",
-      "id": 3
     }
   ]
 }
